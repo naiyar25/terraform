@@ -1,4 +1,22 @@
 terraform_project/.terraform/
 terraform_project/terraform.tfstate
 terraform_project/terraform.tfstate.backup
+terraform-user_ac# Ignore Terraform working directory (all folders)
+**/.terraform/*
+
+# Ignore Terraform state files (anywhere)
+*.tfstate
+*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Sensitive files
 terraform-user_accessKeys.csv
+terraform.tfvars
+*.auto.tfvars
+
+# Optional (recommended to commit)
+# .terraform.lock.hclcessKeys.csv
